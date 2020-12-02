@@ -238,8 +238,8 @@ extension ViewController : CloudLayoutOperationDelegate {
         
     }
     
+    #if DEBUG
     func insertBoundingRect(_ rect: CGRect) {
-        #if DEBUG
         let boundingRect : CALayer = CALayer()
         boundingRect.frame = rect
         
@@ -250,8 +250,8 @@ extension ViewController : CloudLayoutOperationDelegate {
         boundingRect.borderColor = UIColor(red:0.0, green:0.0, blue:1.0, alpha:0.5).cgColor
         boundingRect.borderWidth = 0.5
         self.view.layer.addSublayer(boundingRect)
-        #endif
     }
+    #endif
 }
 
 
