@@ -15,7 +15,7 @@ public extension UIFont {
 //    public static let kLALsystemPointSize : CGFloat = 16.0
 //    class let kLALsystemPointSize : CGFloat = 16.0
     
-    public class func kLALsystemPointSize() -> CGFloat {
+    class func kLALsystemPointSize() -> CGFloat {
         return 16.0
     }
 
@@ -25,7 +25,7 @@ public extension UIFont {
      
      @return The total number of possible font choices
      */
-    public class func lal_numberOfPreferredFonts() -> Int {
+    class func lal_numberOfPreferredFonts() -> Int {
         return 8
     }
     

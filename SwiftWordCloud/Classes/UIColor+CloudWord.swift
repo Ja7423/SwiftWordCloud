@@ -140,9 +140,9 @@ extension UIColor {
         let isMonochrome : Bool = (colors.count == 1)
         
         let fontName : String = UIFont.systemFont(ofSize: 16.0).fontName
-        var attributes : [String : AnyObject] = [
-            NSFontAttributeName : UIFont(name: fontName, size:20.0 + contentSizeDelta)!,
-            NSForegroundColorAttributeName : colors.first!
+        var attributes : [NSAttributedString.Key : AnyObject] = [
+            NSAttributedString.Key.font: UIFont(name: fontName, size:20.0 + contentSizeDelta)!,
+            NSAttributedString.Key.foregroundColor: colors.first!
         ]
         
         
@@ -150,28 +150,28 @@ extension UIColor {
         
         
         attributes = [
-            NSFontAttributeName : UIFont(name:fontName, size:18.0 + contentSizeDelta)!,
-            NSForegroundColorAttributeName : isMonochrome ? colors[0] : colors[1] ]
+            NSAttributedString.Key.font : UIFont(name:fontName, size:18.0 + contentSizeDelta)!,
+            NSAttributedString.Key.foregroundColor : isMonochrome ? colors[0] : colors[1] ]
         
         let attribute2 = NSAttributedString(string:"Christ" ,attributes: attributes);
         attributedText.append(attribute2)
         
         
         attributes = [
-            NSFontAttributeName : UIFont(name:fontName, size:16.0 + contentSizeDelta)!,
-            NSForegroundColorAttributeName : isMonochrome ? colors[0] : colors[2] ]
+            NSAttributedString.Key.font : UIFont(name:fontName, size:16.0 + contentSizeDelta)!,
+            NSAttributedString.Key.foregroundColor : isMonochrome ? colors[0] : colors[2] ]
         
         attributedText.append(NSAttributedString(string:"King" ,attributes: attributes))
         
         attributes = [
-            NSFontAttributeName : UIFont(name:fontName, size:14.0 + contentSizeDelta)!,
-            NSForegroundColorAttributeName : isMonochrome ? colors[0] : colors[3] ]
+            NSAttributedString.Key.font : UIFont(name:fontName, size:14.0 + contentSizeDelta)!,
+            NSAttributedString.Key.foregroundColor : isMonochrome ? colors[0] : colors[3] ]
         
         attributedText.append(NSAttributedString(string:"of" ,attributes: attributes))
         
         attributes = [
-            NSFontAttributeName : UIFont(name:fontName, size:12.0 + contentSizeDelta)!,
-            NSForegroundColorAttributeName : isMonochrome ? colors[0] : colors[4] ]
+            NSAttributedString.Key.font : UIFont(name:fontName, size:12.0 + contentSizeDelta)!,
+            NSAttributedString.Key.foregroundColor : isMonochrome ? colors[0] : colors[4] ]
         
         attributedText.append(NSAttributedString(string:"kings" ,attributes: attributes))
         

@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 /**
  A cloud word, consisting of text, and word weight
  
@@ -62,9 +61,9 @@ open class CloudWord : NSObject {
     open var frame : CGRect {
         get {
             return CGRect(x: self.boundsCenter.x - self.boundsSize.width / 2.0,
-                              y: self.boundsCenter.y - self.boundsSize.height / 2.0,
-                              width: self.boundsSize.width,
-                              height: self.boundsSize.height)
+                          y: self.boundsCenter.y - self.boundsSize.height / 2.0,
+                          width: self.boundsSize.width,
+                          height: self.boundsSize.height)
         }
     }
     /**
@@ -72,7 +71,7 @@ open class CloudWord : NSObject {
      */
     //@property (nonatomic, assign, getter=isWordOrientationVertical) BOOL wordOrientationVertical;
     open var wordOrientationVertical: Bool!
-        
+    
     /**
      Initializes a newly allocated CloudWord object
      
@@ -83,9 +82,9 @@ open class CloudWord : NSObject {
      @return An initialized CloudWord object
      */
     
-    init(word: String, wordCount: Int) {
+    public init(word: String, wordCount: Int) {
         
-        self.wordText = word.characters.count > 0 ? word : "??"
+        self.wordText = word.count > 0 ? word : "??"
         self.wordCount = wordCount > 0 ? wordCount :  1
         // Cloud layout will assign point size based on normalized word counts
         // Once the point size is known, cloud layout will determine the word's orientation and geometry
@@ -125,7 +124,7 @@ open class CloudWord : NSObject {
         {
             self.wordColor = 4;
         }
-
+        
     }
     /**
      Assign a random word orientation to the word
@@ -140,7 +139,7 @@ open class CloudWord : NSObject {
      */
     
     fileprivate static let containerMargin : CGFloat = 16.0;
-
+    
     func determineRandomWordOrientationInContainerWithSize(_ containerSize: CGSize, scale:CGFloat, fontName:String) {
         
         // Assign random word orientation (10% chance for vertical)
@@ -182,7 +181,7 @@ open class CloudWord : NSObject {
         
         // Place bounds upon standard normal distribution to ensure word is placed within the container
         
-        while (fabs(randomGaussianPoint.x) > 5.0 || fabs(randomGaussianPoint.y) > 5.0) {
+        while (abs(randomGaussianPoint.x) > 5.0 || abs(randomGaussianPoint.y) > 5.0) {
             randomGaussianPoint = randomGaussian()
         }
         
@@ -225,7 +224,7 @@ open class CloudWord : NSObject {
      @return The padded frame adjusted for leading/trailing space
      */
     func paddedFrame() -> CGRect {
-    
+        
         let dx = wordOrientationVertical == true ? -2.0 : -5.0
         let dy = wordOrientationVertical == true ? -5.0 : -2.0
         
@@ -247,21 +246,19 @@ open class CloudWord : NSObject {
      @note Sets self.wordOrientationVertical and self.boundsSize
      */
     func sizeWordVertical(_ isVertical: Bool, scale: CGFloat, fontName: String) {
-    
-    self.wordOrientationVertical = isVertical
-    
         
+        self.wordOrientationVertical = isVertical
         
-        let attributes : [String : AnyObject] = [
-        NSFontAttributeName : UIFont(name :fontName, size: self.pointSize)!
+        let attributes : [NSAttributedString.Key : AnyObject] = [
+            NSAttributedString.Key.font : UIFont(name :fontName, size: self.pointSize)!
         ]
         
         let attributedWord : NSAttributedString = NSAttributedString(string: self.wordText, attributes: attributes)
         
         let attributedWordSize : CGSize = attributedWord.size()
-    
+        
         // Round up fractional values to integral points
-    
+        
         if wordOrientationVertical == true {
             
             // Vertical orientation.  Width <- sized height.  Height <- sized width
@@ -270,7 +267,7 @@ open class CloudWord : NSObject {
             let ceilValueHeight = ceilValue(attributedWordSize.width, scale: scale)
             
             boundsSize = CGSize(width: ceilValueWidth, height: ceilValueHeight)
-        
+            
         } else {
             let ceilValueWidth = ceilValue(attributedWordSize.width, scale: scale)
             let ceilValueHeight = ceilValue(attributedWordSize.height, scale: scale)
@@ -327,9 +324,9 @@ open class CloudWord : NSObject {
     func ceilValue(_ value : CGFloat, scale: CGFloat) -> CGFloat {
         return ceil(value * scale) / scale;
     }
-
+    
     
     open override var debugDescription: String {
-        return "<\(self.self): \(self)> word = \(wordText); wordCount = \(wordCount); pointSize = \(pointSize); center = \(boundsCenter); vertical = \(wordOrientationVertical); size = \(boundsSize); area = \(boundsArea)"
+        return "<\(self.self): \(self)> word = \(wordText); wordCount = \(String(describing: wordCount)); pointSize = \(String(describing: pointSize)); center = \(String(describing: boundsCenter)); vertical = \(String(describing: wordOrientationVertical)); size = \(String(describing: boundsSize)); area = \(String(describing: boundsArea))"
     }
 }

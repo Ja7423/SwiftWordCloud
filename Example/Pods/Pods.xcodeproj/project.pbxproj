@@ -7,293 +7,272 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12E9FE67038635570ED32D5C24550FBF /* Pods-SwiftWordCloud_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8AAA84AEFFC2CD6B5409B604A6C41D /* Pods-SwiftWordCloud_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19305C8F05A3B391C2AB2471C54C60B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		24086B88A56B718BDB318BB209C9BEF2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001C3E5BDD5CF0F0638788A4C33C7F5 /* ReplaceMe.swift */; };
-		364B5A413DE0FF7051EB7D8E9FE896C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7DE1173A723786B5A05BAB1A66B775DC /* SwiftWordCloud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4477B519E0DB2B817DAD43CBA0F968D9 /* SwiftWordCloud-dummy.m */; };
-		A78450B14FD37F7B2BEA142DB31E30CE /* Pods-SwiftWordCloud_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF660EC2F538B0F66ADC26F6D2C7FB3 /* Pods-SwiftWordCloud_Example-dummy.m */; };
-		C38BAB89160EB5032A36CA2FCA1394EC /* SwiftWordCloud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 142B724FF508483DD8DE648CF2D0FC10 /* SwiftWordCloud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB30A9509B652863706EAB8F4F8C9E3E /* Pods-SwiftWordCloud_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5886F241C41E1656DEEEAFE1FBB9A204 /* Pods-SwiftWordCloud_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F396BDE05BFAE5CEE3FF92AC1217CEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		F898251ED24C789E69BA5129A7868F0E /* Pods-SwiftWordCloud_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B786BF8E492CEF41C86243465645966C /* Pods-SwiftWordCloud_Tests-dummy.m */; };
+		18C04844E22CBFB49CBDA95587810367 /* Pods-SwiftWordCloud_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB8AF7B62A04D91ADE9659831CFBA69 /* Pods-SwiftWordCloud_Example-dummy.m */; };
+		20717FF92E844DA5E9D03A5B0D95F0AB /* UIFont+CloudWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654DC43F36D028DC48B54A13ECA8C3E4 /* UIFont+CloudWord.swift */; };
+		424B7AA48738229EB9B56ABECF993E03 /* UIColor+CloudWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D2C0353F81795874A1954C5911BEBC /* UIColor+CloudWord.swift */; };
+		49A1C58960F2F0777D977B236E2E07B7 /* SwiftWordCloud-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11FFDA614682B25EC1840FB65F19C1B7 /* SwiftWordCloud-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55C3021947CED601040BBA0023D68881 /* CloudWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8285FD7C43BB06677814B179BF9F75 /* CloudWord.swift */; };
+		5F09D6AFB3844280736C9713EE946EEA /* SwiftWordCloud-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF22446B552D8F55A781FCB32B7CCF88 /* SwiftWordCloud-dummy.m */; };
+		6C3CAC70728668CF2EDF54F80B983A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77A8D5CF3E9FCFAC16D3077F8D31EA70 /* Pods-SwiftWordCloud_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A569A5674E50A2D2DBAEC8AAB99C6A /* Pods-SwiftWordCloud_Tests-dummy.m */; };
+		9CFA32D39D3BA0A2E7459473A681F40C /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD4C7FEE3400B130D2CD6369A47EED /* QuadTree.swift */; };
+		BDD6B65F81604A449F4066359EFB2CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C8A699FFB0792955997B22B53F3358E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4C071D32C8033823D49753F3FC5F881 /* CloudLayoutOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FFEA14F2C2C160FD1B69C05D3659A2 /* CloudLayoutOperation.swift */; };
+		FB5CB4D1E858074275ABD9F89431B40D /* Pods-SwiftWordCloud_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6784D65EFC950CAB1277C1E599D42FBB /* Pods-SwiftWordCloud_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC97102729CA1A0FE839F314F005D5B2 /* Pods-SwiftWordCloud_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDA9F8F6B337713E8E6D5CE4A54B1F1 /* Pods-SwiftWordCloud_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BD3EB2E9D3BA6FD3510393E94BB4A418 /* PBXContainerItemProxy */ = {
+		1864F6A81FF575F54D7E42A59F7C16E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 86FAA4F75BC07CF322C1248FA462316B;
+			remoteGlobalIDString = 002D76E63FCE41DCB5C17B57A5ABBCA6;
 			remoteInfo = SwiftWordCloud;
+		};
+		CAA02A3F601DD3E18DAA1247DD7C6710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E558B7A395DD5061E37D82FC9E2F883E;
+			remoteInfo = "Pods-SwiftWordCloud_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01DAACD18838781A488FFCED9D8E4EBB /* Pods_SwiftWordCloud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWordCloud_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08807ACB91901D8642299D0B504ED26F /* Pods-SwiftWordCloud_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWordCloud_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0A97D643A34F4DD71A0487836FFA9850 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D8AAA84AEFFC2CD6B5409B604A6C41D /* Pods-SwiftWordCloud_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWordCloud_Tests-umbrella.h"; sourceTree = "<group>"; };
-		142B724FF508483DD8DE648CF2D0FC10 /* SwiftWordCloud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWordCloud-umbrella.h"; sourceTree = "<group>"; };
-		1DBC96B24F4D38818189BDAC7CAF6244 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F6C8EA7B7B3BC531965FB2517850DE8 /* Pods-SwiftWordCloud_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftWordCloud_Example.modulemap"; sourceTree = "<group>"; };
-		26F13A9A93017896AA36A87A621E22F0 /* Pods-SwiftWordCloud_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftWordCloud_Tests.modulemap"; sourceTree = "<group>"; };
-		2F90799C23F89D5B9F1A4F15F04EAECD /* Pods-SwiftWordCloud_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWordCloud_Tests-resources.sh"; sourceTree = "<group>"; };
-		3A3B5F93D0E02FCE4DA8DE4BFF126915 /* SwiftWordCloud.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWordCloud.xcconfig; sourceTree = "<group>"; };
-		4477B519E0DB2B817DAD43CBA0F968D9 /* SwiftWordCloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftWordCloud-dummy.m"; sourceTree = "<group>"; };
-		5886F241C41E1656DEEEAFE1FBB9A204 /* Pods-SwiftWordCloud_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWordCloud_Example-umbrella.h"; sourceTree = "<group>"; };
-		77626918331EBBC2709ACAD051493386 /* SwiftWordCloud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWordCloud-prefix.pch"; sourceTree = "<group>"; };
-		786773B77E6BE8BA2F4EE8ADF6F33BD8 /* Pods-SwiftWordCloud_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWordCloud_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F835744F178567C85CC6DE9C4D07513 /* Pods-SwiftWordCloud_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWordCloud_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8151EE34869A18BB0583046263D870D1 /* SwiftWordCloud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftWordCloud.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D47A0ED763D172766E0D61D8B7B9FDE /* Pods-SwiftWordCloud_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9DC2125960C4801184406C7BDE7DF253 /* Pods-SwiftWordCloud_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWordCloud_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9E6B9B3E3247B26249D36669FA252B55 /* SwiftWordCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftWordCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F985E0FF6D64EC6E495FAD9C36F830F /* Pods-SwiftWordCloud_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A001C3E5BDD5CF0F0638788A4C33C7F5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		A8C0AEC1356E08599DEB5101ABA2F944 /* Pods-SwiftWordCloud_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B20147B0D49E237103ED7645A373CDEE /* Pods-SwiftWordCloud_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWordCloud_Example-resources.sh"; sourceTree = "<group>"; };
-		B461BBF812D5D7D93C8C2C770487C776 /* Pods-SwiftWordCloud_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWordCloud_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B786BF8E492CEF41C86243465645966C /* Pods-SwiftWordCloud_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWordCloud_Tests-dummy.m"; sourceTree = "<group>"; };
-		C75D5EB57AFEB1A206AE12B6231A7ADD /* Pods-SwiftWordCloud_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8AE1F7B942E58DAD445399995FF7FCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0BA3084A2B15B258D743F4D907F8BFF /* Pods_SwiftWordCloud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWordCloud_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4F31C912E1C67A4ED0A85657D66085A /* Pods-SwiftWordCloud_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWordCloud_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EBF660EC2F538B0F66ADC26F6D2C7FB3 /* Pods-SwiftWordCloud_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWordCloud_Example-dummy.m"; sourceTree = "<group>"; };
+		064D75944AB66FBF5164EBB5B9CBC083 /* SwiftWordCloud.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftWordCloud.modulemap; sourceTree = "<group>"; };
+		11FFDA614682B25EC1840FB65F19C1B7 /* SwiftWordCloud-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWordCloud-umbrella.h"; sourceTree = "<group>"; };
+		141C87FB203840BA581E0F7C0BA864D7 /* SwiftWordCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWordCloud.release.xcconfig; sourceTree = "<group>"; };
+		17BB33FDC9EF52F60F64CB4EE9180639 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		203093FF55F8E36C2E86DCF9629C9C61 /* Pods-SwiftWordCloud_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftWordCloud_Tests.modulemap"; sourceTree = "<group>"; };
+		22A569A5674E50A2D2DBAEC8AAB99C6A /* Pods-SwiftWordCloud_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWordCloud_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B8285FD7C43BB06677814B179BF9F75 /* CloudWord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudWord.swift; path = SwiftWordCloud/Classes/CloudWord.swift; sourceTree = "<group>"; };
+		349E8CFAF4C6A447EC710FCC1B3F2120 /* SwiftWordCloud-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftWordCloud-Info.plist"; sourceTree = "<group>"; };
+		41F50973A132D2D87892E616FDEFCBD8 /* Pods-SwiftWordCloud_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWordCloud_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4509E7087EF47F890F65F69E03D669A3 /* SwiftWordCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftWordCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD4C7FEE3400B130D2CD6369A47EED /* QuadTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadTree.swift; path = SwiftWordCloud/Classes/QuadTree.swift; sourceTree = "<group>"; };
+		4A3D6CBCDEC198EA7ABB6AB171873A16 /* Pods-SwiftWordCloud_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWordCloud_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5340CE94DD5DA74AC2453283A937DBB6 /* Pods-SwiftWordCloud_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		53E4D42BB4D8A98D3F522E5FF8299DEF /* Pods_SwiftWordCloud_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWordCloud_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E77005E02DA04F1701B087CD2C189B3 /* Pods-SwiftWordCloud_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWordCloud_Example-Info.plist"; sourceTree = "<group>"; };
+		5EB8AF7B62A04D91ADE9659831CFBA69 /* Pods-SwiftWordCloud_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWordCloud_Example-dummy.m"; sourceTree = "<group>"; };
+		654DC43F36D028DC48B54A13ECA8C3E4 /* UIFont+CloudWord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+CloudWord.swift"; path = "SwiftWordCloud/Classes/UIFont+CloudWord.swift"; sourceTree = "<group>"; };
+		6784D65EFC950CAB1277C1E599D42FBB /* Pods-SwiftWordCloud_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWordCloud_Tests-umbrella.h"; sourceTree = "<group>"; };
+		70FFEA14F2C2C160FD1B69C05D3659A2 /* CloudLayoutOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudLayoutOperation.swift; path = SwiftWordCloud/Classes/CloudLayoutOperation.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C7727CCAC6B28476CF4AF85F2110DF8 /* Pods-SwiftWordCloud_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		848354B4A690574ACF51FFA3462425C5 /* Pods-SwiftWordCloud_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftWordCloud_Example.modulemap"; sourceTree = "<group>"; };
+		98BCC43C8E760E5BDD1F1BE7949907A7 /* Pods-SwiftWordCloud_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D7F665D4A5D44AF04C77B6F84EC5472 /* SwiftWordCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWordCloud.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB1236ADAD96359D29DB215C9278FB6A /* SwiftWordCloud.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftWordCloud.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF22446B552D8F55A781FCB32B7CCF88 /* SwiftWordCloud-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftWordCloud-dummy.m"; sourceTree = "<group>"; };
+		C6CB59AE77A94CA73EFF05D2CD644552 /* Pods-SwiftWordCloud_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWordCloud_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF9FED54E00D1528DD009A983626E42D /* Pods-SwiftWordCloud_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWordCloud_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2D2C0353F81795874A1954C5911BEBC /* UIColor+CloudWord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+CloudWord.swift"; path = "SwiftWordCloud/Classes/UIColor+CloudWord.swift"; sourceTree = "<group>"; };
+		D9292108D77E32109E5BAE0C673B6712 /* Pods-SwiftWordCloud_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWordCloud_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA276B9B4ADAB1F800A13465B644321E /* Pods-SwiftWordCloud_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWordCloud_Tests-Info.plist"; sourceTree = "<group>"; };
+		EFDA9F8F6B337713E8E6D5CE4A54B1F1 /* Pods-SwiftWordCloud_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWordCloud_Example-umbrella.h"; sourceTree = "<group>"; };
+		F4B0F3A41B865FE994B7B20DB0A27912 /* SwiftWordCloud-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWordCloud-prefix.pch"; sourceTree = "<group>"; };
+		F5C64CE3AA7356B26F3663A66F076332 /* Pods_SwiftWordCloud_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWordCloud_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86CA3DF80E19950D27EC4E4F9301B7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC4D43AAF3B4FB482FAB090B2CA5561A /* Pods-SwiftWordCloud_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWordCloud_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56C65EA3B0081C7B3C195E41626931FC /* Frameworks */ = {
+		2489468EEBF887CC48962341B9A1CC46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19305C8F05A3B391C2AB2471C54C60B4 /* Foundation.framework in Frameworks */,
+				6C3CAC70728668CF2EDF54F80B983A19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61AD4157D156D37065504357C8B3CBAC /* Frameworks */ = {
+		2A624A455E61801D15E6F9DDF808454C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364B5A413DE0FF7051EB7D8E9FE896C7 /* Foundation.framework in Frameworks */,
+				BDD6B65F81604A449F4066359EFB2CFB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BB425767AB2FE63752EC4CBCD75DB35 /* Frameworks */ = {
+		5FA491EF509454E80085A2116358418C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F396BDE05BFAE5CEE3FF92AC1217CEA2 /* Foundation.framework in Frameworks */,
+				C8A699FFB0792955997B22B53F3358E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F56A974D73C9AEABD6B8C566840D2CC /* Products */ = {
+		016DE518DCEEB3DF842DCA18922F5528 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0BA3084A2B15B258D743F4D907F8BFF /* Pods_SwiftWordCloud_Example.framework */,
-				01DAACD18838781A488FFCED9D8E4EBB /* Pods_SwiftWordCloud_Tests.framework */,
-				9E6B9B3E3247B26249D36669FA252B55 /* SwiftWordCloud.framework */,
+				53E4D42BB4D8A98D3F522E5FF8299DEF /* Pods_SwiftWordCloud_Example.framework */,
+				F5C64CE3AA7356B26F3663A66F076332 /* Pods_SwiftWordCloud_Tests.framework */,
+				4509E7087EF47F890F65F69E03D669A3 /* SwiftWordCloud.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B072B222D9CFC6EA13A6CBDF401BA72 /* Classes */ = {
+		34C0F4BFEA4D375EF6712028B3C87B7E /* Pods-SwiftWordCloud_Example */ = {
 			isa = PBXGroup;
 			children = (
-				A001C3E5BDD5CF0F0638788A4C33C7F5 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		34580717211374EB17B153C3F9CD8819 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EB68C103AEE582557853042B39153C61 /* SwiftWordCloud */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3E6EBD43579F748ADDE64D0E06F9255B /* Pods-SwiftWordCloud_Example */ = {
-			isa = PBXGroup;
-			children = (
-				0A97D643A34F4DD71A0487836FFA9850 /* Info.plist */,
-				1F6C8EA7B7B3BC531965FB2517850DE8 /* Pods-SwiftWordCloud_Example.modulemap */,
-				B461BBF812D5D7D93C8C2C770487C776 /* Pods-SwiftWordCloud_Example-acknowledgements.markdown */,
-				08807ACB91901D8642299D0B504ED26F /* Pods-SwiftWordCloud_Example-acknowledgements.plist */,
-				EBF660EC2F538B0F66ADC26F6D2C7FB3 /* Pods-SwiftWordCloud_Example-dummy.m */,
-				7F835744F178567C85CC6DE9C4D07513 /* Pods-SwiftWordCloud_Example-frameworks.sh */,
-				B20147B0D49E237103ED7645A373CDEE /* Pods-SwiftWordCloud_Example-resources.sh */,
-				5886F241C41E1656DEEEAFE1FBB9A204 /* Pods-SwiftWordCloud_Example-umbrella.h */,
-				9D47A0ED763D172766E0D61D8B7B9FDE /* Pods-SwiftWordCloud_Example.debug.xcconfig */,
-				9F985E0FF6D64EC6E495FAD9C36F830F /* Pods-SwiftWordCloud_Example.release.xcconfig */,
+				848354B4A690574ACF51FFA3462425C5 /* Pods-SwiftWordCloud_Example.modulemap */,
+				C6CB59AE77A94CA73EFF05D2CD644552 /* Pods-SwiftWordCloud_Example-acknowledgements.markdown */,
+				CF9FED54E00D1528DD009A983626E42D /* Pods-SwiftWordCloud_Example-acknowledgements.plist */,
+				5EB8AF7B62A04D91ADE9659831CFBA69 /* Pods-SwiftWordCloud_Example-dummy.m */,
+				4A3D6CBCDEC198EA7ABB6AB171873A16 /* Pods-SwiftWordCloud_Example-frameworks.sh */,
+				5E77005E02DA04F1701B087CD2C189B3 /* Pods-SwiftWordCloud_Example-Info.plist */,
+				EFDA9F8F6B337713E8E6D5CE4A54B1F1 /* Pods-SwiftWordCloud_Example-umbrella.h */,
+				5340CE94DD5DA74AC2453283A937DBB6 /* Pods-SwiftWordCloud_Example.debug.xcconfig */,
+				98BCC43C8E760E5BDD1F1BE7949907A7 /* Pods-SwiftWordCloud_Example.release.xcconfig */,
 			);
 			name = "Pods-SwiftWordCloud_Example";
 			path = "Target Support Files/Pods-SwiftWordCloud_Example";
 			sourceTree = "<group>";
 		};
-		4FE7939CDB6CD674D6EAE7C27B10517F /* Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1DBC96B24F4D38818189BDAC7CAF6244 /* Info.plist */,
-				8151EE34869A18BB0583046263D870D1 /* SwiftWordCloud.modulemap */,
-				3A3B5F93D0E02FCE4DA8DE4BFF126915 /* SwiftWordCloud.xcconfig */,
-				4477B519E0DB2B817DAD43CBA0F968D9 /* SwiftWordCloud-dummy.m */,
-				77626918331EBBC2709ACAD051493386 /* SwiftWordCloud-prefix.pch */,
-				142B724FF508483DD8DE648CF2D0FC10 /* SwiftWordCloud-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftWordCloud";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A047691CAAF484F41A6ECE37B96C781 /* SwiftWordCloud */ = {
+		665FAE00C56ECF948135134358FDE16C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B072B222D9CFC6EA13A6CBDF401BA72 /* Classes */,
+				7BCB90AB40E9B6DD20AB618810AF6F16 /* SwiftWordCloud */,
 			);
-			path = SwiftWordCloud;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		7BCB90AB40E9B6DD20AB618810AF6F16 /* SwiftWordCloud */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				34580717211374EB17B153C3F9CD8819 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0F56A974D73C9AEABD6B8C566840D2CC /* Products */,
-				F06AE3CDC957A084F11493859C89FB19 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB68C103AEE582557853042B39153C61 /* SwiftWordCloud */ = {
-			isa = PBXGroup;
-			children = (
-				4FE7939CDB6CD674D6EAE7C27B10517F /* Support Files */,
-				7A047691CAAF484F41A6ECE37B96C781 /* SwiftWordCloud */,
+				70FFEA14F2C2C160FD1B69C05D3659A2 /* CloudLayoutOperation.swift */,
+				2B8285FD7C43BB06677814B179BF9F75 /* CloudWord.swift */,
+				45FD4C7FEE3400B130D2CD6369A47EED /* QuadTree.swift */,
+				D2D2C0353F81795874A1954C5911BEBC /* UIColor+CloudWord.swift */,
+				654DC43F36D028DC48B54A13ECA8C3E4 /* UIFont+CloudWord.swift */,
+				DE00DF3446A6D7C8A28912289CCC5758 /* Pod */,
+				F1764CC8B1B44428D6EAA15DBB817D78 /* Support Files */,
 			);
 			name = SwiftWordCloud;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		ED37931039B734DD2880CC3124137DAF /* Pods-SwiftWordCloud_Tests */ = {
+		8D446CA0672D48908607FC1819964BE1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8AE1F7B942E58DAD445399995FF7FCE /* Info.plist */,
-				26F13A9A93017896AA36A87A621E22F0 /* Pods-SwiftWordCloud_Tests.modulemap */,
-				786773B77E6BE8BA2F4EE8ADF6F33BD8 /* Pods-SwiftWordCloud_Tests-acknowledgements.markdown */,
-				9DC2125960C4801184406C7BDE7DF253 /* Pods-SwiftWordCloud_Tests-acknowledgements.plist */,
-				B786BF8E492CEF41C86243465645966C /* Pods-SwiftWordCloud_Tests-dummy.m */,
-				D4F31C912E1C67A4ED0A85657D66085A /* Pods-SwiftWordCloud_Tests-frameworks.sh */,
-				2F90799C23F89D5B9F1A4F15F04EAECD /* Pods-SwiftWordCloud_Tests-resources.sh */,
-				0D8AAA84AEFFC2CD6B5409B604A6C41D /* Pods-SwiftWordCloud_Tests-umbrella.h */,
-				A8C0AEC1356E08599DEB5101ABA2F944 /* Pods-SwiftWordCloud_Tests.debug.xcconfig */,
-				C75D5EB57AFEB1A206AE12B6231A7ADD /* Pods-SwiftWordCloud_Tests.release.xcconfig */,
+				34C0F4BFEA4D375EF6712028B3C87B7E /* Pods-SwiftWordCloud_Example */,
+				F059138187498FB413DB83F4FE467A87 /* Pods-SwiftWordCloud_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				665FAE00C56ECF948135134358FDE16C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				016DE518DCEEB3DF842DCA18922F5528 /* Products */,
+				8D446CA0672D48908607FC1819964BE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE00DF3446A6D7C8A28912289CCC5758 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F86CA3DF80E19950D27EC4E4F9301B7E /* LICENSE */,
+				17BB33FDC9EF52F60F64CB4EE9180639 /* README.md */,
+				AB1236ADAD96359D29DB215C9278FB6A /* SwiftWordCloud.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F059138187498FB413DB83F4FE467A87 /* Pods-SwiftWordCloud_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				203093FF55F8E36C2E86DCF9629C9C61 /* Pods-SwiftWordCloud_Tests.modulemap */,
+				41F50973A132D2D87892E616FDEFCBD8 /* Pods-SwiftWordCloud_Tests-acknowledgements.markdown */,
+				D9292108D77E32109E5BAE0C673B6712 /* Pods-SwiftWordCloud_Tests-acknowledgements.plist */,
+				22A569A5674E50A2D2DBAEC8AAB99C6A /* Pods-SwiftWordCloud_Tests-dummy.m */,
+				EA276B9B4ADAB1F800A13465B644321E /* Pods-SwiftWordCloud_Tests-Info.plist */,
+				6784D65EFC950CAB1277C1E599D42FBB /* Pods-SwiftWordCloud_Tests-umbrella.h */,
+				FC4D43AAF3B4FB482FAB090B2CA5561A /* Pods-SwiftWordCloud_Tests.debug.xcconfig */,
+				7C7727CCAC6B28476CF4AF85F2110DF8 /* Pods-SwiftWordCloud_Tests.release.xcconfig */,
 			);
 			name = "Pods-SwiftWordCloud_Tests";
 			path = "Target Support Files/Pods-SwiftWordCloud_Tests";
 			sourceTree = "<group>";
 		};
-		F06AE3CDC957A084F11493859C89FB19 /* Targets Support Files */ = {
+		F1764CC8B1B44428D6EAA15DBB817D78 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E6EBD43579F748ADDE64D0E06F9255B /* Pods-SwiftWordCloud_Example */,
-				ED37931039B734DD2880CC3124137DAF /* Pods-SwiftWordCloud_Tests */,
+				064D75944AB66FBF5164EBB5B9CBC083 /* SwiftWordCloud.modulemap */,
+				BF22446B552D8F55A781FCB32B7CCF88 /* SwiftWordCloud-dummy.m */,
+				349E8CFAF4C6A447EC710FCC1B3F2120 /* SwiftWordCloud-Info.plist */,
+				F4B0F3A41B865FE994B7B20DB0A27912 /* SwiftWordCloud-prefix.pch */,
+				11FFDA614682B25EC1840FB65F19C1B7 /* SwiftWordCloud-umbrella.h */,
+				9D7F665D4A5D44AF04C77B6F84EC5472 /* SwiftWordCloud.debug.xcconfig */,
+				141C87FB203840BA581E0F7C0BA864D7 /* SwiftWordCloud.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftWordCloud";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0047F17728D055544109AAEAF27BECBE /* Headers */ = {
+		58D6C3AFFE8CB4719A8055EC74939A89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E9FE67038635570ED32D5C24550FBF /* Pods-SwiftWordCloud_Tests-umbrella.h in Headers */,
+				FC97102729CA1A0FE839F314F005D5B2 /* Pods-SwiftWordCloud_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1237750FE59758F89E94E4A3BF48C46 /* Headers */ = {
+		5C2609BF00D8804AF7F57230250670BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB30A9509B652863706EAB8F4F8C9E3E /* Pods-SwiftWordCloud_Example-umbrella.h in Headers */,
+				49A1C58960F2F0777D977B236E2E07B7 /* SwiftWordCloud-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C946CD579D8E36F4538F09CFFB429776 /* Headers */ = {
+		DB54CEAC920D77FA174D1672717C17BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38BAB89160EB5032A36CA2FCA1394EC /* SwiftWordCloud-umbrella.h in Headers */,
+				FB5CB4D1E858074275ABD9F89431B40D /* Pods-SwiftWordCloud_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50CDEA4780997E38F06F8DF5C9919AA6 /* Pods-SwiftWordCloud_Tests */ = {
+		002D76E63FCE41DCB5C17B57A5ABBCA6 /* SwiftWordCloud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36D5C3B45B52BFB936EEA95D7C9CE902 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Tests" */;
+			buildConfigurationList = 4877E3C2FEC25625A2CD94A6D6090A2E /* Build configuration list for PBXNativeTarget "SwiftWordCloud" */;
 			buildPhases = (
-				7940BD426541653364CA01297535FF7D /* Sources */,
-				6BB425767AB2FE63752EC4CBCD75DB35 /* Frameworks */,
-				0047F17728D055544109AAEAF27BECBE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-SwiftWordCloud_Tests";
-			productName = "Pods-SwiftWordCloud_Tests";
-			productReference = 01DAACD18838781A488FFCED9D8E4EBB /* Pods_SwiftWordCloud_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6B0EAE0FF342248C4EFFDE3DE5D13E6F /* Pods-SwiftWordCloud_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65C1CDDD66AE33D91A229B6AE85850C5 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Example" */;
-			buildPhases = (
-				C0DAF9764C8E20647DEDD5D75C13DBB1 /* Sources */,
-				61AD4157D156D37065504357C8B3CBAC /* Frameworks */,
-				B1237750FE59758F89E94E4A3BF48C46 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B39C3CD0AAA8DAC861F33B06A1C7D7C /* PBXTargetDependency */,
-			);
-			name = "Pods-SwiftWordCloud_Example";
-			productName = "Pods-SwiftWordCloud_Example";
-			productReference = D0BA3084A2B15B258D743F4D907F8BFF /* Pods_SwiftWordCloud_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		86FAA4F75BC07CF322C1248FA462316B /* SwiftWordCloud */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CBF664D43899A6DBA48BFF71C55C6F99 /* Build configuration list for PBXNativeTarget "SwiftWordCloud" */;
-			buildPhases = (
-				F9B4255DAE04EFEE4A9D016C5D866E19 /* Sources */,
-				56C65EA3B0081C7B3C195E41626931FC /* Frameworks */,
-				C946CD579D8E36F4538F09CFFB429776 /* Headers */,
+				5C2609BF00D8804AF7F57230250670BF /* Headers */,
+				B8F9354AA82A7A1DD34B7CD7B94846F0 /* Sources */,
+				2A624A455E61801D15E6F9DDF808454C /* Frameworks */,
+				1543F8FAAFCCB9DEE87121874380DA49 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -301,102 +280,203 @@
 			);
 			name = SwiftWordCloud;
 			productName = SwiftWordCloud;
-			productReference = 9E6B9B3E3247B26249D36669FA252B55 /* SwiftWordCloud.framework */;
+			productReference = 4509E7087EF47F890F65F69E03D669A3 /* SwiftWordCloud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C99319361225A0271F95453F14374AE1 /* Pods-SwiftWordCloud_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99D82AB166B4CDF45FC89B9FBCC02B3 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Tests" */;
+			buildPhases = (
+				DB54CEAC920D77FA174D1672717C17BD /* Headers */,
+				081F239D046C5054D97D52959A165FD5 /* Sources */,
+				5FA491EF509454E80085A2116358418C /* Frameworks */,
+				0F497A311A72380E7FEB2507543AF07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72B125BEB5A858FECE94BB7276E41F81 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftWordCloud_Tests";
+			productName = "Pods-SwiftWordCloud_Tests";
+			productReference = F5C64CE3AA7356B26F3663A66F076332 /* Pods_SwiftWordCloud_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E558B7A395DD5061E37D82FC9E2F883E /* Pods-SwiftWordCloud_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28479FAB5320BF77601528B3108639F2 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Example" */;
+			buildPhases = (
+				58D6C3AFFE8CB4719A8055EC74939A89 /* Headers */,
+				BB047541F731C975FA2403822329E1ED /* Sources */,
+				2489468EEBF887CC48962341B9A1CC46 /* Frameworks */,
+				3929F68771F1D57807B81E9FA1326ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85B0C9088D2662D122736A3AE425C8B /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftWordCloud_Example";
+			productName = "Pods-SwiftWordCloud_Example";
+			productReference = 53E4D42BB4D8A98D3F522E5FF8299DEF /* Pods_SwiftWordCloud_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0F56A974D73C9AEABD6B8C566840D2CC /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 016DE518DCEEB3DF842DCA18922F5528 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B0EAE0FF342248C4EFFDE3DE5D13E6F /* Pods-SwiftWordCloud_Example */,
-				50CDEA4780997E38F06F8DF5C9919AA6 /* Pods-SwiftWordCloud_Tests */,
-				86FAA4F75BC07CF322C1248FA462316B /* SwiftWordCloud */,
+				E558B7A395DD5061E37D82FC9E2F883E /* Pods-SwiftWordCloud_Example */,
+				C99319361225A0271F95453F14374AE1 /* Pods-SwiftWordCloud_Tests */,
+				002D76E63FCE41DCB5C17B57A5ABBCA6 /* SwiftWordCloud */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0F497A311A72380E7FEB2507543AF07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1543F8FAAFCCB9DEE87121874380DA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3929F68771F1D57807B81E9FA1326ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		7940BD426541653364CA01297535FF7D /* Sources */ = {
+		081F239D046C5054D97D52959A165FD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F898251ED24C789E69BA5129A7868F0E /* Pods-SwiftWordCloud_Tests-dummy.m in Sources */,
+				77A8D5CF3E9FCFAC16D3077F8D31EA70 /* Pods-SwiftWordCloud_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0DAF9764C8E20647DEDD5D75C13DBB1 /* Sources */ = {
+		B8F9354AA82A7A1DD34B7CD7B94846F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78450B14FD37F7B2BEA142DB31E30CE /* Pods-SwiftWordCloud_Example-dummy.m in Sources */,
+				F4C071D32C8033823D49753F3FC5F881 /* CloudLayoutOperation.swift in Sources */,
+				55C3021947CED601040BBA0023D68881 /* CloudWord.swift in Sources */,
+				9CFA32D39D3BA0A2E7459473A681F40C /* QuadTree.swift in Sources */,
+				5F09D6AFB3844280736C9713EE946EEA /* SwiftWordCloud-dummy.m in Sources */,
+				424B7AA48738229EB9B56ABECF993E03 /* UIColor+CloudWord.swift in Sources */,
+				20717FF92E844DA5E9D03A5B0D95F0AB /* UIFont+CloudWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B4255DAE04EFEE4A9D016C5D866E19 /* Sources */ = {
+		BB047541F731C975FA2403822329E1ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24086B88A56B718BDB318BB209C9BEF2 /* ReplaceMe.swift in Sources */,
-				7DE1173A723786B5A05BAB1A66B775DC /* SwiftWordCloud-dummy.m in Sources */,
+				18C04844E22CBFB49CBDA95587810367 /* Pods-SwiftWordCloud_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6B39C3CD0AAA8DAC861F33B06A1C7D7C /* PBXTargetDependency */ = {
+		72B125BEB5A858FECE94BB7276E41F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftWordCloud_Example";
+			target = E558B7A395DD5061E37D82FC9E2F883E /* Pods-SwiftWordCloud_Example */;
+			targetProxy = CAA02A3F601DD3E18DAA1247DD7C6710 /* PBXContainerItemProxy */;
+		};
+		C85B0C9088D2662D122736A3AE425C8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftWordCloud;
-			target = 86FAA4F75BC07CF322C1248FA462316B /* SwiftWordCloud */;
-			targetProxy = BD3EB2E9D3BA6FD3510393E94BB4A418 /* PBXContainerItemProxy */;
+			target = 002D76E63FCE41DCB5C17B57A5ABBCA6 /* SwiftWordCloud */;
+			targetProxy = 1864F6A81FF575F54D7E42A59F7C16E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E96ED2A4480D4379AAA58860250F644 /* Debug */ = {
+		03F05421090C6AEBC1B762C4CDA28078 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8C0AEC1356E08599DEB5101ABA2F944 /* Pods-SwiftWordCloud_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9D7F665D4A5D44AF04C77B6F84EC5472 /* SwiftWordCloud.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftWordCloud/SwiftWordCloud-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftWordCloud/SwiftWordCloud-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftWordCloud/SwiftWordCloud.modulemap";
+				PRODUCT_MODULE_NAME = SwiftWordCloud;
+				PRODUCT_NAME = SwiftWordCloud;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG=1";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17A85E81C09E8D48B0036705E3D80846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4D43AAF3B4FB482FAB090B2CA5561A /* Pods-SwiftWordCloud_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Pods-SwiftWordCloud_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Pods-SwiftWordCloud_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwiftWordCloud_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,256 +485,258 @@
 			};
 			name = Debug;
 		};
-		8156F38C761EF38D031FFBA423432F96 /* Release */ = {
+		277A341BC3ADD072690BB27AB48697F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A3B5F93D0E02FCE4DA8DE4BFF126915 /* SwiftWordCloud.xcconfig */;
+			baseConfigurationReference = 5340CE94DD5DA74AC2453283A937DBB6 /* Pods-SwiftWordCloud_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftWordCloud/SwiftWordCloud-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftWordCloud/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Pods-SwiftWordCloud_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftWordCloud/SwiftWordCloud.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftWordCloud;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Pods-SwiftWordCloud_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		3EAF367909CCD180B4FB6177A357317D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7727CCAC6B28476CF4AF85F2110DF8 /* Pods-SwiftWordCloud_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Pods-SwiftWordCloud_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Pods-SwiftWordCloud_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Release;
 		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		750B7AEF73646A9536D2AA24314D9FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BCC43C8E760E5BDD1F1BE7949907A7 /* Pods-SwiftWordCloud_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Pods-SwiftWordCloud_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Pods-SwiftWordCloud_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AB5E2D3F528C2D80FB9A92EB667EB88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		CA72A6FC05FFA515A46233C87282147A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		A313A7AA571061AD6BE988188C1470A0 /* Debug */ = {
+		DCE6541A3672C66FAE3932F922A0A469 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A3B5F93D0E02FCE4DA8DE4BFF126915 /* SwiftWordCloud.xcconfig */;
+			baseConfigurationReference = 141C87FB203840BA581E0F7C0BA864D7 /* SwiftWordCloud.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftWordCloud/SwiftWordCloud-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftWordCloud/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SwiftWordCloud/SwiftWordCloud-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftWordCloud/SwiftWordCloud.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = SwiftWordCloud;
 				PRODUCT_NAME = SwiftWordCloud;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD860E39B7F0CF61D20BE29ADD0E09DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C75D5EB57AFEB1A206AE12B6231A7ADD /* Pods-SwiftWordCloud_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Tests/Pods-SwiftWordCloud_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwiftWordCloud_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D8518F1B1F8C8C068E792A5DFF5D26E5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D47A0ED763D172766E0D61D8B7B9FDE /* Pods-SwiftWordCloud_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Pods-SwiftWordCloud_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwiftWordCloud_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E63B555102EE14C6499A29DDF4591363 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F985E0FF6D64EC6E495FAD9C36F830F /* Pods-SwiftWordCloud_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWordCloud_Example/Pods-SwiftWordCloud_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwiftWordCloud_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -663,43 +745,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		28479FAB5320BF77601528B3108639F2 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				277A341BC3ADD072690BB27AB48697F5 /* Debug */,
+				750B7AEF73646A9536D2AA24314D9FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36D5C3B45B52BFB936EEA95D7C9CE902 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E96ED2A4480D4379AAA58860250F644 /* Debug */,
-				CD860E39B7F0CF61D20BE29ADD0E09DB /* Release */,
+				CA72A6FC05FFA515A46233C87282147A /* Debug */,
+				7AB5E2D3F528C2D80FB9A92EB667EB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65C1CDDD66AE33D91A229B6AE85850C5 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Example" */ = {
+		4877E3C2FEC25625A2CD94A6D6090A2E /* Build configuration list for PBXNativeTarget "SwiftWordCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8518F1B1F8C8C068E792A5DFF5D26E5 /* Debug */,
-				E63B555102EE14C6499A29DDF4591363 /* Release */,
+				03F05421090C6AEBC1B762C4CDA28078 /* Debug */,
+				DCE6541A3672C66FAE3932F922A0A469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBF664D43899A6DBA48BFF71C55C6F99 /* Build configuration list for PBXNativeTarget "SwiftWordCloud" */ = {
+		B99D82AB166B4CDF45FC89B9FBCC02B3 /* Build configuration list for PBXNativeTarget "Pods-SwiftWordCloud_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A313A7AA571061AD6BE988188C1470A0 /* Debug */,
-				8156F38C761EF38D031FFBA423432F96 /* Release */,
+				17A85E81C09E8D48B0036705E3D80846 /* Debug */,
+				3EAF367909CCD180B4FB6177A357317D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

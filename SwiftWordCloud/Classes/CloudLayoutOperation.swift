@@ -22,7 +22,7 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 }
 
 
-protocol CloudLayoutOperationDelegate : NSObjectProtocol {
+public protocol CloudLayoutOperationDelegate : NSObjectProtocol {
     /**
      Insert a title into the delegate's cloud view
      
@@ -58,7 +58,7 @@ protocol CloudLayoutOperationDelegate : NSObjectProtocol {
 
 }
 
-class CloudLayoutOperation: Operation {
+open class CloudLayoutOperation: Operation {
     
     //MARK: vars
     
@@ -110,7 +110,7 @@ class CloudLayoutOperation: Operation {
      
      @param delegate The delegate which will receive word layout and progress updates
      */
-    init(cloudWords : [CloudWord], title: String, fontName: String, forContainerSize containerSize: CGSize, withScale containerScale: CGFloat, delegate: CloudLayoutOperationDelegate) {
+    public init(cloudWords : [CloudWord], title: String, fontName: String, forContainerSize containerSize: CGSize, withScale containerScale: CGFloat, delegate: CloudLayoutOperationDelegate) {
         
         // Custom initialization
         
@@ -133,7 +133,7 @@ class CloudLayoutOperation: Operation {
     
     //MARK - Private methods
     
-    internal override func main() {
+    open override func main() {
         
         if isCancelled == true {
             return;
@@ -320,9 +320,9 @@ class CloudLayoutOperation: Operation {
         
         
         let sizingButton : UIButton = UIButton(type: .system)
-        sizingButton.contentEdgeInsets = UIEdgeInsetsMake(0.0, 8.0, 5.0, 2.0);
+        sizingButton.contentEdgeInsets = UIEdgeInsets(top: 0.0, left: 8.0, bottom: 5.0, right: 2.0);
         
-        sizingButton.setTitle(cloudTitle, for:UIControlState())
+        sizingButton.setTitle(cloudTitle, for:UIControl.State())
         let pointSize : CGFloat = UIFont.kLALsystemPointSize() + UIFont.lal_preferredContentSizeDelta()
         
         sizingButton.titleLabel!.font = UIFont.systemFont(ofSize: pointSize)
@@ -439,7 +439,7 @@ class CloudLayoutOperation: Operation {
                     return false
                 }
                 
-                let radians : Double = Double(degrees) * M_PI / 180.0;
+                let radians : Double = Double(degrees) * Double.pi / 180.0;
                 
                 let x : CGFloat = CGFloat( cos(radians) * Double(radius) )
                 let y : CGFloat = CGFloat( sin(radians) * Double(radius) )
@@ -505,8 +505,8 @@ class CloudLayoutOperation: Operation {
         let height : CGFloat = (word.wordOrientationVertical == true) ? self.containerSize.width : self.containerSize.height;
         let horizontalFrame : CGRect = CGRect(x: 0.0, y: 0.0, width: width, height: height)
         
-        let attributes : [String : AnyObject] = [
-            NSFontAttributeName : UIFont(name:cloudFont, size:word.pointSize)!
+        let attributes : [NSAttributedString.Key : AnyObject] = [
+            NSAttributedString.Key.font : UIFont(name:cloudFont, size:word.pointSize)!
         ]
         
         let attributedString : NSAttributedString = NSAttributedString(string: word.wordText, attributes: attributes)
@@ -538,11 +538,11 @@ class CloudLayoutOperation: Operation {
             
             
             var runIndex : CFIndex = 0
-            while runIndex < CFArrayGetCount(runs as CFArray!) {
+            while runIndex < CFArrayGetCount(runs as CFArray?) {
                 // MARK: FIXME !!!!!
 //                let runValue : UnsafePointer<CTRun> = UnsafePointer<CTRun>(CFArrayGetValueAtIndex(runs, runIndex))
 //                let run : CTRunRef = runValue.memory
-                let run : CTRun = unsafeBitCast(CFArrayGetValueAtIndex(runs as CFArray!, runIndex), to: CTRun.self)
+                let run : CTRun = unsafeBitCast(CFArrayGetValueAtIndex(runs as CFArray?, runIndex), to: CTRun.self)
                 
                 let runAttributes : CFDictionary =  CTRunGetAttributes(run)
                 
@@ -551,7 +551,7 @@ class CloudLayoutOperation: Operation {
 //                let fontValue = UnsafePointer<CTFont>(CFDictionaryGetValue(runAttributes, NSFontAttributeName))
 //                let font : CTFontRef = fontValue.memory
                 let dictionary : NSDictionary = NSDictionary(dictionary: runAttributes)
-                let font : CTFont = dictionary[NSFontAttributeName] as! CTFont
+                let font : CTFont = dictionary[NSAttributedString.Key.font] as! CTFont
                 
 //                let font : CTFontRef = unsafeBitCast(CFDictionaryGetValue(runAttributes!, NSFontAttributeName), CTFont.self)
                 

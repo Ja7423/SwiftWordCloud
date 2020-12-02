@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of SwiftWordCloud.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftWordCloud",
+  "homepage": "https://github.com/SalehAlDhobaie/SwiftWordCloud",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,14 @@
     "Saleh AlDhobaie": "Saleh.Dhobaie@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SwiftWordCloud.git",
+    "git": "https://github.com/SalehAlDhobaie/SwiftWordCloud.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/SalehAlDhobaie",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "SwiftWordCloud/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "SwiftWordCloud/Classes/**/*",
+  "swift_version": "5.0"
 }

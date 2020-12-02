@@ -339,7 +339,7 @@ open class QuadTree : NSObject {
         if migratedBoundingRects.count > 0 {
             
             for value in migratedBoundingRects {
-                if let index = boundingRects?.index(of: value) {
+                if let index = boundingRects?.firstIndex(of: value) {
                     boundingRects?.remove(at: index)
                 }
             }
@@ -380,7 +380,7 @@ open class QuadTree : NSObject {
     
     
     open override var debugDescription: String {
-        return "<\(self.self): \(self)> frame = \(frame); boundingRects = \(boundingRects); topLeftQuad = \(topLeftQuad.debugDescription); topRightQuad = \(topRightQuad.debugDescription); bottomLeftQuad = \(bottomLeftQuad.debugDescription); bottomRightQuad = \(bottomRightQuad.debugDescription)"
+        return "<\(self.self): \(self)> frame = \(String(describing: frame)); boundingRects = \(String(describing: boundingRects)); topLeftQuad = \(topLeftQuad.debugDescription); topRightQuad = \(topRightQuad.debugDescription); bottomLeftQuad = \(bottomLeftQuad.debugDescription); bottomRightQuad = \(bottomRightQuad.debugDescription)"
     }
 }
 
